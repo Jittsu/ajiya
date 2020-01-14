@@ -12,7 +12,7 @@ $ pip install -r reqirements.txt
 $ vim ajiya_gitshare.py
 #dataのpath等を適宜書き換え(フルパスが良い)
 $ crontab -e
-#開いたファイルの末尾に"0 9 * * * [FULL PATH TO python] [FULL PATH TO ajiya]/ajiya.py >> [FULL PATH TO ajiya]/ajiya.log"を追記
+#開いたファイルの末尾に"0 9 * * * [FULL PATH TO python] [FULL PATH TO ajiya]/ajiya_gitshare.py >> [FULL PATH TO ajiya]/ajiya.log"を追記
 ```
 
 ※このリポジトリは個人使用であり，あじやエンタープライズ株式会社様とは無関係です．バグ等についてはあじやエンタープライズ株式会社様ではなくこちらのリポジトリのIssueによろしくお願いいたします．
