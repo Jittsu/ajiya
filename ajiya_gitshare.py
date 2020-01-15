@@ -17,6 +17,8 @@ def main():
 	if weekday != 5 and weekday !=6:
 		detail = scraping()
 		send_line(detail)
+		today = datetime.datetime.today()
+		print(str(today.year) + '年' + str(today.month) + '月' + str(today.day) + '日' + '：OK')
 	else:
 		pass
 
